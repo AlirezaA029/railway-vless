@@ -1,21 +1,13 @@
 {
-  "name": "express-hello-world",
+  "name": "railway-vless",
   "version": "1.0.0",
-  "description": "Express Hello World on Render",
-  "main": "app.js",
-  "repository": "",
-  "author": "Render Developers",
-  "license": "MIT",
-  "private": false,
+  "description": "Run VLESS on Railway using Xray-core",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6",
-    "request": "^2.88.2"
-  },
-  "engines": {
-    "node": ">=14"
+    "child_process": "^1.0.2",
+    "express": "^4.18.2"
   }
 }
