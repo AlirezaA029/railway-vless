@@ -6,16 +6,15 @@
       "settings": {
         "clients": [
           {
-            "id": "11111111-1111-1111-1111-111111111111",
+            "id": "4e6d1a23-a2ba-40f7-a9de-5272808b3dc3",
             "level": 0,
-            "email": "railway@example.com"
+            "email": "railway"
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
         "network": "ws",
-        "security": "none",
         "wsSettings": {
           "path": "/"
         }
@@ -24,7 +23,8 @@
   ],
   "outbounds": [
     {
-      "protocol": "freedom"
+      "protocol": "freedom",
+      "settings": {}
     }
   ]
 }
