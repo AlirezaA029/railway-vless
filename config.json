@@ -1,20 +1,31 @@
-"inbounds": [
-  {
-    "port": 3000,
-    "protocol": "vless",
-    "settings": {
-      "clients": [
-        {
-          "id": "UUID-اینجا",
-          "level": 0,
-          "email": "test"
+{
+  "inbounds": [
+    {
+      "port": 3000,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "6e2d3e58-2a99-4d53-8d4a-84a4f7c7f9b1",
+            "level": 0,
+            "email": "railway@vless"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "h2",
+        "security": "tls",
+        "httpSettings": {
+          "path": "/vless" 
         }
-      ],
-      "decryption": "none"
-    },
-    "streamSettings": {
-      "network": "h2",
-      "security": "tls"
+      }
     }
-  }
-]
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
